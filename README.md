@@ -33,5 +33,7 @@ The tool can be configured by changing the following values in the code:<br>
 <H2>Usage</H2>
 The tool will start monitoring the network activity and print the number of established connections every 5 seconds (by default). If the number of connections exceeds the set threshold, an email alert will be sent to the administrator. The tool can be stopped by pressing Ctrl + C on the keyboard.<br>
 
+<img src="https://raw.githubusercontent.com/viehgroup/NetWatch/main/Screenshot.png" alt="Trulli" width="500" height="333">
+
 <H1>Note</H1>
 The encrypted email password provided in the code is for demonstration purposes only and should be replaced with your own encrypted password. It is recommended to encrypt the password using the 'cryptography' library before using it in the code.<br>
