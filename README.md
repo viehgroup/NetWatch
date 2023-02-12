@@ -2,16 +2,17 @@
 A basic network monitoring tool that tracks the number of established network connections and sends an email alert if the number of connections exceeds a set threshold. The tool is designed to continuously monitor network activity and provide real-time information on established connections.<br><br>
 
 <H2>Features</H2>
-Encrypted email password for added security
-Threshold for number of connections can be set by the administrator
-Sends an email alert if the number of established connections exceeds the set threshold
-Monitors network activity continuously and provides real-time information on established connections
-User-friendly and easy to use
-Requirements
-Python 3
-psutil library
-cryptography library
-Installation
+-> Encrypted email password for added security
+-> Threshold for number of connections can be set by the administrator
+-> Sends an email alert if the number of established connections exceeds the set threshold
+-> Monitors network activity continuously and provides real-time information on established connections
+-> User-friendly and easy to use
+
+<H2>Requirements</H2>
+-> Python 3
+-> psutil library
+-> cryptography library
+<H2>Installation</H2>
 Clone the repository to your local machine
 Install the dependencies by running the following command:
 Copy code
